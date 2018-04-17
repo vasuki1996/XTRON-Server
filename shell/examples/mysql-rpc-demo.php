@@ -6,7 +6,7 @@ if (function_exists('xdebug_disable')) {
     xdebug_disable();
 }
 
-$link = new mysqli('localhost', 'user', 'password', 'db_name');
+$link = new mysqli('localhost', 'dbadmin', 'Vasu@1996', 'testxtron');
 
 class MysqlDemo {
   public function query($query) {
